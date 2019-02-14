@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E91E5E"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+
+        android:layout_width="match_parent"
+        android:layout_height="750px"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/f1" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="@drawable/w1" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@drawable/w2"
+
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="@drawable/w3" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="WWW.NOMEREPRUEBESBENIGNO.COM"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+</LinearLayout>

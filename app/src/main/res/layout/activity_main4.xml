@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main4Activity"
+    android:columnCount="3"
+    android:rowCount="5"
+    >
+
+    <ImageView
+        android:background="@drawable/i1"
+        android:layout_width="350px"
+        android:layout_height="320px"
+        />
+
+    <ImageView
+        android:background="@drawable/icono1"
+        android:layout_width="350px"
+        android:layout_height="320px"
+        />
+
+    <ImageView
+        android:background="@drawable/i2"
+        android:layout_width="350px"
+        android:layout_height="320px"
+        />
+
+    <ImageView
+        android:background="@drawable/icono2"
+        android:layout_width="350px"
+        android:layout_height="320px"
+        />
+
+    <ImageView
+        android:background="@drawable/i4"
+        android:layout_width="350px"
+        android:layout_height="320px"
+        />
+
+    <ImageView
+        android:background="@drawable/icono3"
+        android:layout_width="350px"
+        android:layout_height="320px"
+        />
+    <ImageView
+        android:background="@drawable/i5"
+        android:layout_width="350px"
+        android:layout_height="320px"
+        />
+
+    <ImageView
+        android:background="@drawable/icono4"
+        android:layout_width="350px"
+        android:layout_height="320px"
+        />
+
+    <ImageView
+        android:background="@drawable/i6"
+        android:layout_width="350px"
+        android:layout_height="320px"
+        />
+    <ImageView
+        android:background="@drawable/imginsta"
+        android:layout_width="350px"
+        android:layout_height="320px"
+        />
+
+    <ImageView
+        android:background="@drawable/i7"
+        android:layout_width="350px"
+        android:layout_height="320px"
+        />
+
+    <ImageView
+        android:background="@drawable/imglinke"
+        android:layout_width="350px"
+        android:layout_height="320px"
+        />
+    <ImageView
+        android:background="@drawable/i8"
+        android:layout_width="350px"
+        android:layout_height="320px"
+        />
+
+    <ImageView
+        android:background="@drawable/imgpint"
+        android:layout_width="350px"
+        android:layout_height="320px"
+        />
+
+    <ImageView
+        android:background="@drawable/i9"
+        android:layout_width="350px"
+        android:layout_height="320px"
+        />
+</GridLayout>

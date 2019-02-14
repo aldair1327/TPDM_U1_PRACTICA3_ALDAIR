@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <TextView
+        android:id="@+id/primero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Amonos recio!!!"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/segundo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/primero"
+        android:gravity="center"
+        android:text="apoconorazita?? jajajajaja"
+        android:textSize="25dp" />
+
+    <ImageView
+        android:id="@+id/cat"
+        android:layout_width="350px"
+        android:layout_height="350px"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/i1" />
+
+    <ImageView
+        android:layout_width="250px"
+        android:layout_height="250px"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="520px"
+        android:background="@drawable/i2" />
+
+    <ImageView
+        android:layout_width="250px"
+        android:layout_height="250px"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="520px"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/i3" />
+
+    <ImageView
+        android:id="@+id/cat2"
+        android:layout_width="300px"
+        android:layout_height="300px"
+        android:layout_below="@id/cat"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150px"
+        android:background="@drawable/i4" />
+
+    <Button
+        android:id="@+id/boton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cat2"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#00BCD4"
+        android:text="FIND ME 'A DONDE'"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/nel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/boton"
+        android:layout_marginLeft="20dp"
+        android:backgroundTint="#2196F3"
+        android:paddingHorizontal="77dp"
+        android:text="NEL"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/boton"
+        android:layout_toRightOf="@id/nel"
+        android:backgroundTint="#2196F3"
+        android:paddingHorizontal="77dp"
+        android:text="ARRE"
+        android:textColor="#FFFFFF" />
+
+    <ImageView
+        android:id="@+id/i1"
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/icono1" />
+
+    <ImageView
+        android:id="@+id/i2"
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="5dp"
+        android:layout_toRightOf="@id/i1"
+        android:background="@drawable/icono2" />
+
+    <ImageView
+        android:id="@+id/i3"
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="5dp"
+        android:layout_toRightOf="@id/i2"
+        android:background="@drawable/numero" />
+
+    <ImageView
+        android:id="@+id/i4"
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="5dp"
+        android:layout_toRightOf="@id/i3"
+        android:background="@drawable/icono3" />
+
+    <ImageView
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="5dp"
+        android:layout_toRightOf="@id/i4"
+        android:background="@drawable/icono4" />
+
+
+</RelativeLayout>

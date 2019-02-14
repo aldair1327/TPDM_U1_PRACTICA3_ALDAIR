@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:rowCount="5"
+    tools:context=".Main3Activity">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_columnSpan="2"
+        android:layout_gravity="center"
+        android:background="@drawable/uptext"
+
+        />
+
+    <ImageView
+        android:layout_width="250px"
+        android:layout_height="250px"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/icono1" />
+
+    <ImageView
+        android:layout_width="250px"
+        android:layout_height="250px"
+        android:layout_margin="10dp"
+        android:layout_marginRight="180px"
+        android:background="@drawable/i1"
+
+        />
+
+    <ImageView
+        android:layout_width="250px"
+        android:layout_height="250px"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/i2" />
+
+    <ImageView
+        android:layout_width="250px"
+        android:layout_height="250px"
+        android:layout_margin="10dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/icono4" />
+
+    <ImageView
+        android:layout_width="250px"
+        android:layout_height="250px"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/icono3" />
+
+    <ImageView
+        android:layout_width="250px"
+        android:layout_height="250px"
+        android:layout_margin="10dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/i3" />
+
+    <ImageView
+        android:layout_width="250px"
+        android:layout_height="250px"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/i4" />
+
+    <ImageView
+        android:layout_width="250px"
+        android:layout_height="250px"
+        android:layout_margin="10dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/icono2" />
+
+
+</GridLayout>
